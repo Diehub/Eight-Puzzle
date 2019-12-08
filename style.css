@@ -1,0 +1,128 @@
+body { 
+    background: #AAAAAA;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container{
+        width: 500px;
+        height: 500px;
+        background-color: burlywood;
+       
+    }
+    
+    .winscreen{
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .h1-win{
+           color:green;
+           font-size: 60px; 
+    }
+    .restart{
+        position: absolute;
+        width:100px;
+        height: 50px;
+        background: lightgreen;
+        left: 600px;
+        text-align:  center;
+        vertical-align: middle;
+        line-height: 50px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .decline{
+        position: absolute;
+        width: 100px;
+        height: 50px;
+        background: red;
+        left: 850px;
+        text-align:  center;
+        vertical-align: middle;
+        line-height: 50px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .warning{
+        position: absolute;
+        padding-left: 365px;
+        color: red;
+       
+    }
+    .button{
+        width:40px;
+        height:40px;
+        background-color:white;
+       
+        float:right;
+    
+        margin-top:-47px;
+        margin-right: 7px;
+        z-index:2;
+        border-radius: 10px;
+    }
+    .playBtn{
+      
+        margin-top: 5px;
+        margin-left: 15px;
+        border-left: 15px solid black;
+        border-right: 15px dashed transparent;
+        border-top: 15px dashed transparent;
+        border-bottom: 15px dashed transparent;
+        cursor: pointer;
+    }
+    .pauseBtn{
+       
+    margin-top: 10px;
+    margin-left: 10px;
+    border-left: 7px solid black;
+    border-right: 7px solid black;
+    width: 7px;
+    height: 20px;
+    cursor: pointer;
+    }
+   
+    .titlebar{
+        background:black;
+        height: 50px;
+        color:white;
+        text-align: left;
+       padding-top:1px;
+       padding-left: 15px;
+    }
+    .tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
+      display: block;
+      float: left;
+      
+      width: 120px;
+      height: 120px;
+   
+      background: white; 
+      cursor: pointer;
+      font-size: 72px;
+    text-align:  center;
+    vertical-align: middle;
+    margin:10px 10px 10px 10px;
+    border-radius: 10px;
+    line-height: 120px; 
+    }
+    
+    .tile1 {background-position: left top; }
+    .tile2 {background-position: center top; }
+    .tile3 {background-position: right top; }
+    .tile4 {background-position: left center; }
+    .tile5 {background-position: center center; }
+    .tile6 {background-position: right center; }
+    .tile7 {background-position: left bottom; }
+    .tile8 {background-position: center bottom;}
+    .tile9 {background: burlywood; cursor: default;}
+
+    .tile1::before {content:"1"; }
+    .tile2::before {content:"2"; }
+    .tile3::before {content:"3"; }
+    .tile4::before {content:"4"; }
+    .tile5::before {content:"5"; }
+    .tile6::before {content:"6"; }
+    .tile7::before {content:"7"; }
+    .tile8::before {content:"8";}
+    
